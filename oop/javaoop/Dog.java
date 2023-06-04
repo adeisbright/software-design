@@ -9,10 +9,6 @@ public class Dog extends Animal implements IAnimal {
         this.breed = breed ; 
     }
 
-    public int getAge(){
-        return this.age ;
-    }
-
     public String getBreed(){
         return this.breed ; 
     }

@@ -8,8 +8,19 @@ playground utilizing several examples.
 
 You can switch between one context to the other and run the examples as you wish. 
 
+### Run Java 
+
 For Java, to run the java code  , do the following :
 
 $ javac Main.java
+
 $ java Main.java 
+
+### Run TS 
+
+To run the tsc examples, do this :
+
+$ tsc 
+
+The command above will compile all tsc files and output them to the dist/ folder 
 

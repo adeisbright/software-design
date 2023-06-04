@@ -12,4 +12,8 @@ public class Animal {
     public void echoName(){
         System.out.println(this.name);
     }
+
+    public int getAge(){
+        return this.age ;
+    }
 }
