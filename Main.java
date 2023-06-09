@@ -1,5 +1,8 @@
 import designpatterns.javapatterns.Singleton;
 import oop.javaoop.Dog;
+import oop.javaoop.adapter.CoffeeMachineAdapter;
+import oop.javaoop.adapter.NewCofeeMachine;
+import oop.javaoop.adapter.OldCoffeMachine;
 
 public class Main {
     public static void main(String ...args){
@@ -14,5 +17,15 @@ public class Main {
         Singleton secondSingle = Singleton.getInstance();
 
         secondSingle.sayType();
+
+        //Testing the Adapter Design Pattern 
+        OldCoffeMachine oldMachine = new OldCoffeMachine() ; 
+
+        CoffeeMachineAdapter adapter = new CoffeeMachineAdapter(oldMachine);
+       
+
+       NewCofeeMachine newMachine = new NewCofeeMachine(adapter) ;
+
+       newMachine.selectA("Boris");
     }
 }
