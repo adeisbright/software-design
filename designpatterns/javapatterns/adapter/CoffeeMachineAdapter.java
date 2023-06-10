@@ -1,4 +1,4 @@
-package oop.javaoop.adapter;
+package designpatterns.javapatterns.adapter;
 
 //The adapter can safely call a method in the adaptee class 
 // such as the selectA and selectB method 
