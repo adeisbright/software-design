@@ -1,8 +1,8 @@
 import designpatterns.javapatterns.Singleton;
+import designpatterns.javapatterns.adapter.CoffeeMachineAdapter;
+import designpatterns.javapatterns.adapter.NewCofeeMachine;
+import designpatterns.javapatterns.adapter.OldCoffeMachine;
 import oop.javaoop.Dog;
-import oop.javaoop.adapter.CoffeeMachineAdapter;
-import oop.javaoop.adapter.NewCofeeMachine;
-import oop.javaoop.adapter.OldCoffeMachine;
 
 public class Main {
     public static void main(String ...args){

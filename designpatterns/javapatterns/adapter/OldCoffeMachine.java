@@ -1,4 +1,4 @@
-package oop.javaoop.adapter;
+package designpatterns.javapatterns.adapter;
 
 public class OldCoffeMachine {
     public void selectA(String value){
